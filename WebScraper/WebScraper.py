@@ -20,7 +20,6 @@ def listOfLinksFromAnchors(listAnchor,baseurl):
 		r = requests.get(url)
 		soup = bs4.BeautifulSoup(r.text)
 		soupList.append(soup)
-
     return soupList
 
 #GetSoup from a url
