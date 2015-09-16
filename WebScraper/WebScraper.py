@@ -14,12 +14,13 @@ def fixLink(url, baseUrl):
 
 #Give a list of anchors and returns the correspondant soup elements
 def listOfLinksFromAnchors(listAnchor,baseurl):
-   for aSoup in listAnchor:
-		url = aSoup["href"]
-		url = fixLink(url, baseurl)
-		r = requests.get(url)
-		soup = bs4.BeautifulSoup(r.text)
-		soupList.append(soup)
+    soupList = []
+    for aSoup in listAnchor:
+        url = aSoup["href"]
+        url = fixLink(url, baseurl)
+        r = requests.get(url)
+        soup = bs4.BeautifulSoup(r.text)
+        soupList.append(soup)
     return soupList
 
 #GetSoup from a url
@@ -40,7 +41,7 @@ def getElems(soupElem,elem,argument=None,argumentValue=None):
     #example : tableSoup1 = soup.findAll("div", {"id": "B"})
     return output
 
-
+"""
 #print(tableSoup1)
 countriesB = tableSoup1.findAll("a")
 countriesList= []
@@ -79,3 +80,4 @@ print(len(hrefList))
 print(len(dateList))
 print(len(updateList))
 print(len(summaryList))
+"""
