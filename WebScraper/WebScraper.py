@@ -13,7 +13,7 @@ def fixLink(url, baseUrl):
         return baseUrl + url
 
 #Give a list of anchors and returns the correspondant soup elements
-def listOfLinksFromAnchors(listAnchor,baseurl):
+def listOfSoupFromAnchors(listAnchor,baseurl):
     soupList = []
     for aSoup in listAnchor:
         url = aSoup["href"]
@@ -22,6 +22,15 @@ def listOfLinksFromAnchors(listAnchor,baseurl):
         soup = bs4.BeautifulSoup(r.text)
         soupList.append(soup)
     return soupList
+
+def listOfsoupFromlinks(linkList):
+    soupList = []
+    for url in linkList:
+        r = requests.get(url)
+        soup = bs4.BeautifulSoup(r.text)
+        soupList.append(soup)
+    return soupList
+
 
 #GetSoup from a url
 def getSoup(url):
