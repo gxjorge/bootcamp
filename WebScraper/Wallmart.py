@@ -10,22 +10,30 @@ urlSearch = "http://www.walmart.com/search/?query="
 query = "fridge"
 url = urlSearch+query
 
+priceList = []
+fridgeLinkList = []
+fridgeNameList = []
+walmartDf = {'name' : [],'sku' : [], 'price' : [], 'battery' : [], 'color' : [], 'model' : []}
+
 
 soup = WebScraper.getSoup(url)
 #print (soup)
 numberOfPages = soup.findAll("ul", {"class": "paginator-list"})
 numberOfPages = numberOfPages[0].findAll("a")[-1].getText()
-print(numberOfPages)
-priceList = []
+#print(numberOfPages)
+
 priceSoup = soup.findAll("span", {"class": "price price-display"})
-print(priceSoup)
+#print(priceSoup)
 for ps in priceSoup:
     #print(ps.getText())
     priceList.append(ps.getText())
+    #walmartDf.update()
+
+
 
 #print(priceSoup.findAll("span", {"class": "sup"}).getText())
 
-print()
+print(walmartDf)
 soup = soup.findAll("h4")
 
 print (len(soup))
@@ -35,14 +43,15 @@ for elem in soup:
 #soup = soup.findAll("a")
 anchorList.pop(0)
 #print (anchorList)
-print(anchorList)
+#print(anchorList)
 for i in range(0,len(anchorList)-1):
     a = anchorList[i][0]['href']
+    fridgeNameList.append(anchorList[i][0].getText())
     a = WebScraper.fixLink(a,baseUrl)
     fridgeLinkList.append(a)
 
 
-print (fridgeLinkList)
+#print (fridgeLinkList)
 WebScraper.listOfsoupFromlinks(fridgeLinkList)
 
 
