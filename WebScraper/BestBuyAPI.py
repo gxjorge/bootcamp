@@ -1,6 +1,7 @@
 #import requests
 #import bs4
 import WebScraper
+import pandas as pd
 
 def dataDicBB():
     ##Variables
@@ -40,7 +41,10 @@ def dataDicBB():
         soupReview = WebScraper.getSoup("http://api.bestbuy.com/v1/reviews(sku%20in("+key+"))?format=xml&apiKey="+apiKey+"&show=id,sku,title,comment,rating")
         reviewDic[key]=soupReview.findAll("comment")
         #print(key)
-    
+    print(reviewDic)
+    newDf = pd.DataFrame(reviewDic)
+    #newDf.to_excel("Export_BestBuy.xlsx")
+    #newDf.to_csv("Export_BestBuy.csv")
     return productDic,reviewDic
     
 

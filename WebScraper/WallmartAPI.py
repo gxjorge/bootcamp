@@ -85,7 +85,7 @@ totprod = []
 intprod = []
 totrev = []
 intrev = []
-"""
+
 columns = ["itemid", "name","msrp", "saleprice", "upc","shortdescription", "longdescription","modelNumber", "productUrl", "customerRating","numReviews"]
 while startP <= max_products:
     print(startP)
@@ -109,7 +109,7 @@ newDf = pd.DataFrame(totprod, columns=columns)
 newDf.to_excel("Export_Products_Walmart.xlsx")
 newDf.to_csv("Export_Products_Walmart.csv")
 
-"""
+
 newDf =  pd.read_excel("Export_Products_Walmart.xlsx")
 columnsRev = ["itemid", "name","overallRating", "reviewText", "submissionTime","title", "upVotes","downVotes", "reviewer"]
 numRev = 1
