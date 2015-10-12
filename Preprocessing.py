@@ -8,8 +8,10 @@ reviewsBestbuy = pd.read_excel("WebScraper/Export_Reviews.xlsx")
 #print(reviewsBestbuy.head())
 resultBestbuy = pd.merge(reviewsBestbuy, productsBestbuy, how='left', left_on="SKU", right_on="sku")
 #print(resultBestbuy.describe())
-print(resultBestbuy.columns.values)
-
+#print(resultBestbuy.columns.values)
+print(resultBestbuy.describe())
+del resultBestbuy["Rest"]
+del resultBestbuy["Rest"]
 resultBestbuy.to_excel("Data/Data_Bestbuy.xlsx")
 
 
@@ -22,3 +24,4 @@ resultWalmart = pd.merge(reviewsWalmart, productsWalmart, how='left', left_on="i
 
 print(resultWalmart.columns.values)
 resultWalmart.to_excel("Data/Data_Walmart.xlsx")
+
