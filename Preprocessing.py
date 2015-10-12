@@ -29,9 +29,13 @@ resultBestbuy.to_excel("Data/Data_Bestbuy.xlsx")
 print(resultBestbuy.columns.values)
 
 for col in resultBestbuy.columns.values:
-    if(col!='Comment'):
+    if(col!='Comment' and col!='shortDescription'):
         print(col)
         print(collections.Counter(resultBestbuy[col]))
+
+plt.scatter(resultBestbuy["Price"], resultBestbuy["Details: Freezer Capacity"])
+plt.show()
+
 """
 productsWalmart = pd.read_excel("WebScraper/Export_Products_Walmart.xlsx")
 #print(productsWalmart.head())
