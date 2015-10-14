@@ -8,6 +8,7 @@ from nltk.corpus import stopwords
 import re
 import string
 import math
+# http://marcobonzanini.com/2015/01/19/sentiment-analysis-with-python-and-scikit-learn/
 
 def word_feats(words):
     return dict([(word, True) for word in words])
