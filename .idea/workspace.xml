@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="0f44691c-6f6f-4b15-b223-7ce9c0797118" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/SentimentAnalysisReviews.py" afterPath="$PROJECT_DIR$/SentimentAnalysisReviews.py" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/wordcloud2.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wordcloud.py" afterPath="$PROJECT_DIR$/wordcloud.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
@@ -74,8 +74,8 @@
       <file leaf-file-name="Preprocessing.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Preprocessing.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="51" column="0" selection-start-line="51" selection-start-column="0" selection-end-line="51" selection-end-column="48" />
+            <state vertical-scroll-proportion="-4.2105265">
+              <caret line="19" column="33" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="33" />
               <folding>
                 <element signature="e#35#54#0" expanded="true" />
               </folding>
@@ -86,8 +86,8 @@
       <file leaf-file-name="trainingReviews.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/trainingReviews.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="35" column="48" selection-start-line="35" selection-start-column="4" selection-end-line="35" selection-end-column="48" />
+            <state vertical-scroll-proportion="-30.0">
+              <caret line="93" column="32" selection-start-line="93" selection-start-column="30" selection-end-line="93" selection-end-column="32" />
               <folding>
                 <element signature="e#36#45#0" expanded="true" />
               </folding>
@@ -95,10 +95,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SentimentAnalysisReviews.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="SentimentAnalysisReviews.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/SentimentAnalysisReviews.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.39426523">
+            <state vertical-scroll-proportion="0.0">
               <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
               <folding>
                 <element signature="e#36#61#0" expanded="true" />
@@ -111,7 +111,19 @@
         <entry file="file://$PROJECT_DIR$/wordcloud.py">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="29" column="53" selection-start-line="29" selection-start-column="53" selection-end-line="29" selection-end-column="53" />
+              <caret line="29" column="57" selection-start-line="29" selection-start-column="57" selection-end-line="29" selection-end-column="57" />
+              <folding>
+                <element signature="e#36#61#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="wordcloud2.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/wordcloud2.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="1.0035843">
+              <caret line="28" column="9" selection-start-line="28" selection-start-column="9" selection-end-line="28" selection-end-column="9" />
               <folding>
                 <element signature="e#36#61#0" expanded="true" />
               </folding>
@@ -155,8 +167,9 @@
         <option value="$PROJECT_DIR$/Preprocessing.py" />
         <option value="$PROJECT_DIR$/trainingReviews.py" />
         <option value="$PROJECT_DIR$/SentimentAlchemy.py" />
-        <option value="$PROJECT_DIR$/wordcloud.py" />
         <option value="$PROJECT_DIR$/SentimentAnalysisReviews.py" />
+        <option value="$PROJECT_DIR$/wordcloud2.py" />
+        <option value="$PROJECT_DIR$/wordcloud.py" />
       </list>
     </option>
   </component>
@@ -228,24 +241,7 @@
       <recent name="C:\Users\Jorge.GarciaXimenez\Bootcamp\bootcamp\WebScraper" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.wordcloud">
-    <configuration default="false" name="BestbuyReviews" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/WebScraper" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="bootcamp" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/WebScraper/BestbuyReviews.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="Python.wordcloud2">
     <configuration default="false" name="Preprocessing" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -310,6 +306,23 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <module name="bootcamp" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/wordcloud.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="wordcloud2" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="bootcamp" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/wordcloud2.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <method />
@@ -437,19 +450,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python.BestbuyReviews" />
-      <item index="1" class="java.lang.String" itemvalue="Python.Preprocessing" />
-      <item index="2" class="java.lang.String" itemvalue="Python.trainingReviews" />
-      <item index="3" class="java.lang.String" itemvalue="Python.SentimentAnalysisReviews" />
-      <item index="4" class="java.lang.String" itemvalue="Python.wordcloud" />
+      <item index="0" class="java.lang.String" itemvalue="Python.Preprocessing" />
+      <item index="1" class="java.lang.String" itemvalue="Python.trainingReviews" />
+      <item index="2" class="java.lang.String" itemvalue="Python.SentimentAnalysisReviews" />
+      <item index="3" class="java.lang.String" itemvalue="Python.wordcloud" />
+      <item index="4" class="java.lang.String" itemvalue="Python.wordcloud2" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python.wordcloud" />
-        <item index="1" class="java.lang.String" itemvalue="Python.SentimentAnalysisReviews" />
-        <item index="2" class="java.lang.String" itemvalue="Python.Preprocessing" />
-        <item index="3" class="java.lang.String" itemvalue="Python.trainingReviews" />
-        <item index="4" class="java.lang.String" itemvalue="Python.BestbuyReviews" />
+        <item index="0" class="java.lang.String" itemvalue="Python.wordcloud2" />
+        <item index="1" class="java.lang.String" itemvalue="Python.wordcloud" />
+        <item index="2" class="java.lang.String" itemvalue="Python.SentimentAnalysisReviews" />
+        <item index="3" class="java.lang.String" itemvalue="Python.Preprocessing" />
+        <item index="4" class="java.lang.String" itemvalue="Python.trainingReviews" />
       </list>
     </recent_temporary>
   </component>
@@ -560,15 +573,22 @@
       <option name="project" value="LOCAL" />
       <updated>1444745580836</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="wordcloud2">
+      <created>1444806299758</created>
+      <option name="number" value="00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1444806299758</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1050" extended-state="6" />
     <editor active="false" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.16666667" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.16666667" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3297062" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -579,7 +599,6 @@
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39934713" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3297062" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -613,7 +632,8 @@
     <MESSAGE value="Preprocessing" />
     <MESSAGE value="Preprocessing2" />
     <MESSAGE value="wordcloud + sentiments" />
-    <option name="LAST_COMMIT_MESSAGE" value="wordcloud + sentiments" />
+    <MESSAGE value="wordcloud2" />
+    <option name="LAST_COMMIT_MESSAGE" value="wordcloud2" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -622,16 +642,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/WebScraper/WallmartAPI.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="e#37#56#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/WebScraper/Wallmart.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -969,26 +979,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Preprocessing.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="51" column="0" selection-start-line="51" selection-start-column="0" selection-end-line="51" selection-end-column="48" />
-          <folding>
-            <element signature="e#35#54#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/trainingReviews.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="35" column="48" selection-start-line="35" selection-start-column="4" selection-end-line="35" selection-end-column="48" />
-          <folding>
-            <element signature="e#36#45#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/WebScraper/testBestbuy.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -999,20 +989,50 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wordcloud.py">
+    <entry file="file://$PROJECT_DIR$/SentimentAnalysisReviews.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="29" column="53" selection-start-line="29" selection-start-column="53" selection-end-line="29" selection-end-column="53" />
+          <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
           <folding>
             <element signature="e#36#61#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/SentimentAnalysisReviews.py">
+    <entry file="file://$PROJECT_DIR$/trainingReviews.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.39426523">
-          <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+        <state vertical-scroll-proportion="-30.0">
+          <caret line="93" column="32" selection-start-line="93" selection-start-column="30" selection-end-line="93" selection-end-column="32" />
+          <folding>
+            <element signature="e#36#45#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Preprocessing.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-4.2105265">
+          <caret line="19" column="33" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="33" />
+          <folding>
+            <element signature="e#35#54#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wordcloud.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="29" column="57" selection-start-line="29" selection-start-column="57" selection-end-line="29" selection-end-column="57" />
+          <folding>
+            <element signature="e#36#61#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wordcloud2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="1.0035843">
+          <caret line="28" column="9" selection-start-line="28" selection-start-column="9" selection-end-line="28" selection-end-column="9" />
           <folding>
             <element signature="e#36#61#0" expanded="true" />
           </folding>
